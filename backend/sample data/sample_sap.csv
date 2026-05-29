@@ -1,0 +1,6 @@
+Plant Code,Plant Name,Material Code,Material Description,Quantity,Unit,Posting Date,Vendor,Cost Center
+PL001,Bangalore Plant,DIESEL001,High Speed Diesel,1200,L,2025-05-01,Indian Oil,CC1001
+PL001,Bangalore Plant,PETROL001,Petrol,800,L,2025-05-03,BPCL,CC1001
+PL002,Chennai Plant,FUELOIL001,Fuel Oil,3500,L,2025-05-05,HPCL,CC1002
+PL003,Pune Plant,DIESEL001,High Speed Diesel,-100,L,2025-05-07,Indian Oil,CC1003
+PL002,Chennai Plant,PETROL001,Petrol,1500,L,2025-05-08,BPCL,CC1002

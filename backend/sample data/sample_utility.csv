@@ -1,0 +1,6 @@
+Meter ID,Facility,Billing Month,kWh,Tariff,Provider
+MTR001,Bangalore Office,2025-05,12500,Industrial,BESCOM
+MTR002,Chennai Office,2025-05,9800,Commercial,TANGEDCO
+MTR003,Pune Plant,2025-05,22300,Industrial,MSEDCL
+MTR004,Mumbai Office,2025-05,0,Commercial,Adani Electricity
+MTR005,Delhi Office,2025-05,11500,Commercial,BSES

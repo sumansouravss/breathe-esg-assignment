@@ -1,0 +1,3 @@
+trip_type,distance_km,traveler,travel_date
+Flight,1500,John Smith,2025-05-01
+Train,450,Alice Brown,2025-05-03

@@ -1,0 +1,6 @@
+Employee ID,Employee Name,Origin,Destination,Distance KM,Travel Type,Booking Date
+EMP001,Rahul Sharma,BLR,DEL,1740,Flight,2025-05-02
+EMP002,Priya Singh,MUM,BLR,980,Flight,2025-05-03
+EMP003,Ajay Kumar,HYD,BLR,0,Flight,2025-05-05
+EMP004,Neha Gupta,DEL,GGN,35,Taxi,2025-05-06
+EMP005,Vikas Jain,BLR,LON,8040,Flight,2025-05-08
