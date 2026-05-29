@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
+import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -80,14 +82,9 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'breathe_esg_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Suman@9508',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    "default": dj_database_url.config(
+        default=os.environ.get("postgresql://esguser:8IJFbruNzZNwvHFfRcmRGebvMiqJ23QX@dpg-d8ctk4i8qa3s73f497tg-a.oregon-postgres.render.com/esgdb_7b1q")
+    )
 }
 
 # Password validation
